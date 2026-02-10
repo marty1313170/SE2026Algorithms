@@ -20,5 +20,5 @@ discount = total_cost - total_cost / 10
 if total_cost >= 10:
     print(discount, a)
 else:
-    print("$" + total_cost, a)
+    print("$", total_cost, a)
 
