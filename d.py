@@ -22,12 +22,3 @@ if total_cost >= 10:
 else:
     print("$" + total_cost, a)
 
-
-
-
-
-
-
-
-
-
