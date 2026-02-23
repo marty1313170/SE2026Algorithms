@@ -3,29 +3,5 @@ Unit 1
 
 YO WSG
 
-def menu(themenu):
 
-    b = input("What would you like? Options are \n 1) $4 Pizza 2) $4 Burger 3) $5 Sushi  4) $3 Chips 5) $7 Nachos \n Type the name of the foods you want and seperate them by spaces").lower().split()
-
-    if "pizza" in b:
-        total_cost +=4
-    if "burger" in b: 
-        total_cost +=4
-    if "sushi" in b:
-        total_cost +=5
-    if "nachos" in b:
-        total_cost +=7
-    if "chips" in b:
-        total_cost +=3
-    return  
-
-def discount(dis):
-    discount = total_cost - total_cost / 10
-
-    if total_cost >= 10:
-        print(discount, a)
-    else:
-        print("$", total_cost, "{nameasker}")
-
-    return 
 
